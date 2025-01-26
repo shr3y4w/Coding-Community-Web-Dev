@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .nav a {
+    margin-right: 25px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    /* font-weight: bold; */
+  }
+
+  .nav a:hover {
+    font-weight: bold;
+  }
+
+  .register-page {
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .register-box {
+    overflow-y:scroll;
+    overflow-x: hidden;
+    scrollbar-color: rgba(234, 87, 136, 0.192) rgba(88, 2, 39, 0.499);
+
+    background: rgba(255, 255, 255, 0.1);
+    border: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    height: 450px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  
+  .register-box h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .register-box label {
+    display: block;
+    color: white;
+    text-align: left;
+    margin: 5px 0 10px;
+  }
+
+  
+  .register-box input,
+  .register-box select {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 14px;
+  }
+  
+  .register-box option{
+    color:#000000;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  }
+  
+  .register-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  }
+  
+  .register-box button {
+    width: 20%;
+    padding: 10px;
+    background: #0d0104;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  }
+  
+  .register-box button:hover {
+    background:  #8f2e3b;
+  }
+  
+  .register-box p {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .register-box a {
+    color: #add8e6;
+    text-decoration: none;
+  }
+
+    

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Community Login</title>
+    <style>
+        .login-page {
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: url('bg.jpg') no-repeat center center/cover;
+        }
+      
+        .form-container {
+          background: rgba(255, 255, 255, 0.8); /* Slight transparency for form */
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+      </style>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="login-box">
+          <h2>Login</h2>
+          <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            
+            <button type="submit">Login</button>
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+          </form>
+        </div>
+      </div>
+    
+</body>
+</html>
