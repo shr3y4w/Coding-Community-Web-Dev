@@ -1,1 +1,32 @@
+# Virtual environment
+venv/
+
+# Bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django secret key and database
+config/settings.py  # Optional, if you store sensitive credentials inside
+
+# Local database (SQLite, but not PostgreSQL)
+db.sqlite3
+
+# Logs and temporary files
+*.log
+*.sqlite3
+*.db
+media/
+static/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# VS Code and IDE files
 .vscode/
+.idea/
+*.swp
