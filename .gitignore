@@ -1,32 +1,50 @@
-# Virtual environment
-venv/
-
-# Bytecode and compiled files
-__pycache__/
+# Byte-compiled / optimized / DLL files
 *.pyc
 *.pyo
 *.pyd
+__pycache__/
 
-# Django secret key and database
-config/settings.py  # Optional, if you store sensitive credentials inside
+# Virtual environment
+venv/
+env/
 
-# Local database (SQLite, but not PostgreSQL)
+# Django-specific files
 db.sqlite3
-
-# Logs and temporary files
-*.log
 *.sqlite3
-*.db
 media/
+staticfiles/
 static/
 
-# Environment variables
-.env
-.env.local
-.env.production
-.env.*.local
+# Ignore PostgreSQL database files
+*.pgsql
+*.sql
+*.dump
+*.bak
+*.backup
 
-# VS Code and IDE files
+
+# Ignore Django migrations (if you want to reset often)
+**/migrations/*.py
+!**/migrations/__init__.py  # Keep __init__.py to recognize the folder
+
+# Ignore IDE/editor-specific files
 .vscode/
 .idea/
-*.swp
+
+
+# Environment variables and secrets
+.env
+*.env
+config/settings_local.py  # If you store sensitive settings separately
+
+# Logs and debugging files
+*.log
+debug.log
+*.swp  # Vim swap files
+*.swo  # Vim swap files
+*.DS_Store  # macOS hidden files
+
+# Git-related
+.git/
+COMMIT_EDITMSG
+.gitignore
